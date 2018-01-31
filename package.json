@@ -1,0 +1,27 @@
+{
+  "name": "vscode-ava-no-transpile-party-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdaringe/vscode-ava-no-transpile-party-time.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdaringe/vscode-ava-no-transpile-party-time/issues"
+  },
+  "homepage": "https://github.com/cdaringe/vscode-ava-no-transpile-party-time#readme",
+  "devDependencies": {
+    "ava": "https://github.com/avajs/ava.git",
+    "bluebird": "^3.5.1"
+  },
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false
+  }
+}
